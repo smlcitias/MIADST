@@ -7311,7 +7311,6 @@ h1, h2, h3, h4, h5,
 .hero-wrap {
   position: relative;
   height: 750px;
-  background-color:	#99BBFF;
   background-size: cover;
    }
   .hero-wrap .forth {
@@ -7381,15 +7380,15 @@ h1, h2, h3, h4, h5,
           z-index: -1; }
       .hero-wrap .forth .text h1 {
         font-weight: 800;
-        font-size: 90px;
+        font-size: 20px;
         color: 	#ffffff;
         line-height: 1.2; }
         @media (max-width: 991.98px) {
           .hero-wrap .forth .text h1 {
-            font-size: 80px;
+            font-size: 20px;
             color: #ffffff; } }
       .hero-wrap .forth .text h2 {
-        font-size: 60px;
+        font-size: 20px;
         color: #ffffff; }
       .hero-wrap .forth .text .btn-custom {
         position: relative;
@@ -7462,22 +7461,17 @@ h1, h2, h3, h4, h5,
     background: #000000;
     opacity: .2; }
 
+<!--標題的字大小 -->
 .text-bread {
-  height: 250px; }
-  .text-bread .text .bread {
+  height: 600px; }
+  .text-bread h1 {
     font-weight: 800;
-    font-size: 60px;
-    color: #fff; }
-  .text-bread .text .breadcrumbs {
-    font-weight: 500; }
-    .text-bread .text .breadcrumbs span {
-      color: #fff; }
-      .text-bread .text .breadcrumbs span a {
-        color: #fff; }
-
-.video-hero {
-  height: 750px; }
-
+    font-size: 30px;     
+    color: 	#000000; }
+  .text-bread2 {
+    font-weight: 800;
+    font-size: 25px;     
+    color:	#000000 }
 .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
@@ -7759,7 +7753,7 @@ h1, h2, h3, h4, h5,
         letter-spacing: 1px;
         font-size: 18px; }
   .services-wrap:hover .icon {
-    background: #fcd307; }
+    background: #ffffff; }
     .services-wrap:hover .icon span {
       color: #fff; }
 
